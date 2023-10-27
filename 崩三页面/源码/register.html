@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login-reg.css">
+    <script src="./js/login-reg.js"></script>
+</head>
+
+<body>
+    <div id="register-box">
+        <div class="welcome">
+            <h2>注册你的账户</h2>
+        </div>
+        <div class="box" id="box">
+            <div id="top" class="top">
+                <h2>注册</h2>
+            </div>
+            <div class="input-box">
+                <label>账号</label>
+                <input type="text" id="regText" placeholder="请输入账号" />
+                <label>密码</label>
+                <input type="password" id="regPwd" placeholder="请设置密码" />
+                <label>确认密码</label>
+                <input type="password" id="reregPwd" placeholder="请确认密码" />
+            </div>
+            <div class="bun">
+                <button onclick="register()">注册</button>
+                <div class="other">
+                    <label id="go-login" onclick="setLogin()">注册完成，去登录</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="confirmation" class="confirmation hidden">
+        <div class="confirmation-content">
+            <p>注册成功！</p>
+            <p>将在 <span id="countdown">5</span> 秒后跳转到网页。</p>
+            <button id="proceed" type="button">确定</button>
+            <button id="cancel" type="button">取消</button>
+        </div>
+    </div>
+</body>
+
+</html>

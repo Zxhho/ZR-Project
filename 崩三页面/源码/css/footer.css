@@ -1,0 +1,83 @@
+@media only screen and (max-width:992px) {
+    .ff2 {
+        display: none;
+    }
+}
+
+/*footer*/
+.f1 {
+    background-color: #1F1F1F;
+    color: aliceblue;
+}
+
+.footer .f1 .container {
+    color: aliceblue;
+    padding-top: 40px;
+    overflow: hidden;
+}
+
+.footer .ff1 {
+    line-height: 30px;
+    padding-left: 0;
+}
+
+.ff1 .ff1-1 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.ff1 .ff1-2 {
+    font-size: 13px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.ff1 .ff1-3 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+
+.footer .ff2 {
+    line-height: 30px;
+    padding-left: 0;
+}
+
+.ff2 a {
+    text-decoration: none;
+    color: azure;
+    font-size: 13px;
+}
+
+.ff2 a:hover {
+    color: #79b7ff;
+}
+
+.ff2 .ff2-1 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.f2 {
+    background-color: #000000;
+}
+
+.f2 .container {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+
+}
+
+
+.f2 .container p:nth-child(2) {
+    font-size: 13px;
+}
+
+.f2 .container p:nth-child(4) {
+    font-size: 12px;
+}

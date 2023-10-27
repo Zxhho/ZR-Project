@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login-reg.css">
+    <script src="./js/login-reg.js"></script>
+</head>
+
+<body>
+    <div id="login-box">
+        <div id="welcome" class="welcome">
+            <h2>欢迎登录</h2>
+        </div>
+        <div class="box">
+            <div class="top">
+                <h2>登录</h2>
+            </div>
+            <div class="input-box">
+                <label>账号</label>
+                <input type="text" id="loginText" placeholder="请输入账号" />
+                <label>密码</label>
+                <input type="password" id="loginPwd" placeholder="请输入密码" />
+            </div>
+            <div class="bun">
+                <button onclick="getIndex()">登录</button>
+                <div class="other">
+                    <a href="#">忘记密码</a>
+                    <label onclick="setRegistered()">没有账户？去注册</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
